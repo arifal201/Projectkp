@@ -1,0 +1,21 @@
+<%= form_for(@users) do |form| %>
+    
+    <div class = "fields">
+        <%= form.label :username %>
+        <%= form.text_field :username %>
+    </div>
+
+    <div class="fields">
+        <%= form.label :password %>
+        <%= form.text_field :password %>
+    </div>
+
+    <div class="fields">
+        <%= form.label :alamat %>
+        <%= form.text_field :alamat %>
+    </div>
+
+    <div class="action">
+        <%= form.submit %>
+    </div>
+<% end %>
