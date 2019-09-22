@@ -1,0 +1,23 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 59, 80);
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+#header {
+    padding: 15px 8px;
+    background-color: whitesmoke;
+}
+#header h1 {
+    text-align: center;
+}
+#header p {
+    text-align: right;
+}
